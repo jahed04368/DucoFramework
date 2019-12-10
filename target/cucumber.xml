@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.830199">
+<testcase classname="google home page test" name="User goes to Google Homepage" time="14.838352">
+<system-out><![CDATA[Given user is on Google homepage............................................passed
+When User asserts google logo...............................................passed
+And the user enters "hudl"..................................................passed
+And user clicks search......................................................passed
+And User is shown their search..............................................passed
+Then user clicks on their desired site......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="google home page test" name="I'm feeling lucky test" time="9.317597">
+<system-out><![CDATA[Given user is on Google homepage............................................passed
+When User asserts google logo...............................................passed
+And user clicks on feeling lucky............................................passed
+Then user asserts intro text................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="google home page test" name="User goes to Google Homepage" time="4.67425">
+<system-out><![CDATA[Given user is on Google homepage............................................passed
+When User asserts google logo...............................................passed
+Then user deletes last 1 hour activity......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

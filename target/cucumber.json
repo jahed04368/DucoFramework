@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-10T21:16:07.519Z",
+        "line": 14,
+        "name": "User goes to Google Homepage",
+        "description": "",
+        "id": "google-home-page-test;user-goes-to-google-homepage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5251326108,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Google homepage",
+            "match": {
+              "location": "googleStepsDef.user_is_on_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188401809,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User asserts google logo",
+            "match": {
+              "location": "googleStepsDef.user_asserts_google_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2582633437,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters \"hudl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hudl\"",
+                  "offset": 16
+                }
+              ],
+              "location": "googleStepsDef.the_user_enters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4207097611,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks search",
+            "match": {
+              "location": "googleStepsDef.user_clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2325481751,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is shown their search",
+            "match": {
+              "location": "googleStepsDef.user_is_shown_their_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995376,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on their desired site",
+            "match": {
+              "location": "googleStepsDef.user_clicks_on_their_desired_site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DucoTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T21:16:22.367Z",
+        "line": 16,
+        "name": "I\u0027m feeling lucky test",
+        "description": "",
+        "id": "google-home-page-test;i-m-feeling-lucky-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5428574661,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on Google homepage",
+            "match": {
+              "location": "googleStepsDef.user_is_on_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110624995,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User asserts google logo",
+            "match": {
+              "location": "googleStepsDef.user_asserts_google_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3655506384,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on feeling lucky",
+            "match": {
+              "location": "feelingLucky.user_clicks_on_feeling_lucky()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102081874,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user asserts intro text",
+            "match": {
+              "location": "feelingLucky.user_asserts_intro_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DucoTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-10T21:16:31.686Z",
+        "line": 23,
+        "name": "User goes to Google Homepage",
+        "description": "",
+        "id": "google-home-page-test;user-goes-to-google-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3475452652,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on Google homepage",
+            "match": {
+              "location": "googleStepsDef.user_is_on_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138243786,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User asserts google logo",
+            "match": {
+              "location": "googleStepsDef.user_asserts_google_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1054111515,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user deletes last 1 hour activity",
+            "match": {
+              "location": "googleStepsDef.deletesCookies()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DucoTest"
+          }
+        ]
+      }
+    ],
+    "name": "google home page test",
+    "description": "",
+    "id": "google-home-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/googleHome.feature",
+    "tags": []
+  }
+]
